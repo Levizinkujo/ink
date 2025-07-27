@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ink Studios</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #111;
+      color: #fff;
+    }
+
+    header {
+      background-color: #000;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      color: #fff;
+    }
+
+    nav {
+      background-color: #222;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px 0;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #0f0;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      margin-bottom: 20px;
+      color: #0f0;
+    }
+
+    .servicos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: #1a1a1a;
+      padding: 20px;
+      border-radius: 8px;
+      border: 1px solid #333;
+    }
+
+    .indisponivel {
+      color: #aaa;
+      font-style: italic;
+      padding: 10px;
+      border: 1px dashed #444;
+      background-color: #1a1a1a;
+      border-radius: 6px;
+    }
+
+    footer {
+      background-color: #000;
+      text-align: center;
+      padding: 30px 10px;
+      font-size: 14px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ink Studios</h1>
+    <p>Especialistas em animações, mangás e criações artísticas</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#produtos">Produtos</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="home">
+    <h2>Bem-vindo à Ink Studios</h2>
+    <p>Transformamos ideias em arte! Somos uma equipe apaixonada por criar animações, mangás e conteúdo visual impactante.</p>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Desde a nossa fundação, a Ink Studios tem se dedicado a produzir arte de qualidade com personalidade única. Trabalhamos com clientes de todo o Brasil e oferecemos serviços sob medida.</p>
+  </section>
+
+  <section id="servicos">
+    <h2>Serviços</h2>
+    <div class="servicos">
+      <div class="card">
+        <h3>Animação 2D</h3>
+        <p>Produzimos animações com estilo único para vídeos, séries e projetos personalizados.</p>
+      </div>
+      <div class="card">
+        <h3>Criação de Mangás</h3>
+        <p>Desenvolvimento completo de mangás: roteiro, arte, diagramação e publicação.</p>
+      </div>
+      <div class="card">
+        <h3>Design de Personagens</h3>
+        <p>Criação visual de personagens originais para jogos, HQs e animações.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="produtos">
+    <h2>Produtos</h2>
+    <div class="indisponivel">
+      No momento, nossos produtos estão indisponíveis. Em breve, novidades!
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>📱 WhatsApp: <strong>+55 11 97521 3853</strong></p>
+    <p>📧 Em breve também por e-mail e redes sociais.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ink Studios. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
